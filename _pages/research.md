@@ -30,12 +30,3 @@ William Hofgard, Jingruo Sun, and Asaf Cohen, 2023, [[arXiv]](https://arxiv.org/
 <span style="font-size:85%;"> 
 We establish the convergence of the deep Galerkin method (DGM), a deep learning-based scheme for solving high-dimensional nonlinear PDEs, for Hamilton-Jacobi-Bellman (HJB) equations that arise from the study of mean field control problems (MFCPs). Based on a recent characterization of the value function of the MFCP as the unique viscosity solution of an HJB equation on the simplex, we establish both an existence and convergence result for the DGM. First, we show that the loss functional of the DGM can be made arbitrarily small given that the value function of the MFCP possesses sufficient regularity. Then, we show that if the loss functional of the DGM converges to zero, the corresponding neural network approximators must converge uniformly to the true value function on the simplex. We also provide numerical experiments demonstrating the DGM's ability to generalize to high-dimensional HJB equations.
 </span>
-
-## 4. Importance-Weighted Sampling Enhanced VAE for MIRT Model
-
-Jingruo Sun and Gongjun Xu
-
-<span style="font-size:85%;"> 
-Multidimensional Item Response Theory provides an ideal foundation for modeling performance in complex domains, taking into account multiple basic abilities simultaneously, and representing different mixtures of the abilities required for different test items. However, with the increasing size of modern assessment data, conventional estimation methods become computationally demanding, and hence they are not scalable to big data. To tackle this challenge, we present a novel approach utilizing importance-weighted sampling
-enhanced Variational Autoencoder on logistic models. We leverage the power of variational inference from the field of machine learning to effectively approximate the elusive marginal likelihood. We further enhance our method by using importance-weighted samples to yield a superior log-likelihood approximation.
-</span>
