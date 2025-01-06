@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: ""
 permalink: /talk/
 author_profile: true
@@ -27,7 +26,7 @@ This paper examines how scientific ideas transition from novel claims in publish
 
 ## 3. A Greener Future Beyond Profits: Sustainability as a Driver of Market
 
-Jingruo Sun, Best Project Award of Machine Learning, 2023
+Jingruo Sun, Best Project Award of Machine Learning (1/172), 2023
 
 <span style="font-size:85%;"> 
 df
