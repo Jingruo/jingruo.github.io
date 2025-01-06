@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Jingruo Sun"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Jingruo Sun"
+description              : &description "Master Student, Stanford MS&E"
 url                      : https://jingruo.github.io
 baseurl                  : ""
 repository               : "https://jingruo.github.io/"
@@ -21,7 +21,7 @@ repository               : "https://jingruo.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.JPG"
+  avatar           : "/images/profile.jpg"
   name             : "Jingruo Sun"
   bio              : "Master Student, Stanford MS&E"
   location         : "Stanford, CA"
