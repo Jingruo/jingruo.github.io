@@ -9,11 +9,11 @@ redirect_from:
 
 # About Me
 
-I am a Master's student in Management Science & Engineering [(MS&E)](https://msande.stanford.edu/) at Stanford University. I am fortunate to be advised by [Prof. Yinyu Ye](https://stanford.edu/~yyye/), [Prof. Madeleine Udell](https://web.stanford.edu/~udell/), and [Prof. Ellen Vitercik](https://vitercik.github.io/). Before joining Stanford, I received my B.S. degree with high honors in mathematics and statistics from the University of Michigan. During my undergraduate studies, I had the pleasure of working with [Prof. Asaf Cohen](https://sites.google.com/site/asafcohentau/home) and [Prof. Gongjun Xu](https://sites.google.com/umich.edu/gongjunxu/home). 
+I am a Master's student in Management Science & Engineering (MS&E) at Stanford University, where I am fortunate to be advised by [Prof. Yinyu Ye](https://stanford.edu/~yyye/), [Prof. Madeleine Udell](https://web.stanford.edu/~udell/), and [Prof. Ellen Vitercik](https://vitercik.github.io/). Before joining Stanford, I received my B.S. degree with high honors in Mathematics and Statistics from the University of Michigan. During my undergraduate studies, I had the pleasure of working with [Prof. Asaf Cohen](https://sites.google.com/site/asafcohentau/home) and [Prof. Gongjun Xu](https://sites.google.com/umich.edu/gongjunxu/home). I am now pursuing a Ph.D. in Fall 2025. 
 
 # Research Interests
 
-My research interests 
+My research interests lie broadly in 
 
 Getting started
 ======
