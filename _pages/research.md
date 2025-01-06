@@ -16,6 +16,9 @@ Online linear programming (OLP) has found broad applications in revenue manageme
 
 Jingruo Sun, Zachary Frangella, and Madeleine Udell
 
+Rapid growth of modern machine learning and statistical applications has driven increasing interest in solving high-dimensional optimization problems. However, the challenges posed by ill-conditioned, non-smooth, and large-scale optimization tasks often undermine the performance of traditional stochastic gradient methods, leading to slow convergence and significant computational inefficiencies. 
+To address these challenges, we propose the SAPPHIRE (**S**ketching-based **A**pproximations for **P**roximal **P**reconditioning and **H**essian **I**nexactness with Variance-**R**educed Gradi**E**nts) algorithm. It integrates advanced sketching-based preconditioning techniques to tackle ill-conditioning and scaled proximal mapping to stabilize the optimization process. We demonstrate that our algorithm achieves a global linear convergence under quadratic regularity. Empirical evaluations show that SAPPHIRE outperforms other commonly used methods such as Catalyst, SAGA, and SVRG even with infrequent updates of preconditioners or non-convex objectives, highlighting its robustness and effectiveness. 
+
 ## 3. Convergence of the Deep Galerkin Method for Mean Field Control Problems
 
 William Hofgard, Jingruo Sun, and Asaf Cohen, [[arXiv]](https://arxiv.org/abs/2405.13346)
