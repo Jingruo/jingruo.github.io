@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.jpeg"
+  avatar           : "/images/profile.JPG"
   name             : "Jingruo Sun"
   bio              : "Master Student, Stanford MS&E"
   location         : "Stanford, CA"
