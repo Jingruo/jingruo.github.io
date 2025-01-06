@@ -9,11 +9,11 @@ redirect_from:
 
 # About Me
 
-I am a Master's student in Management Science & Engineering [(MS&E)](https://msande.stanford.edu/) at Stanford University. 
+I am a Master's student in Management Science & Engineering [(MS&E)](https://msande.stanford.edu/) at Stanford University. I am fortunate to be advised by [Prof. Yinyu Ye](https://stanford.edu/~yyye/), [Prof. Madeleine Udell](https://web.stanford.edu/~udell/), and [Prof. Ellen Vitercik](https://vitercik.github.io/). Before joining Stanford, I received my B.S. degree with high honors in mathematics and statistics from the University of Michigan. During my undergraduate studies, I had the pleasure of working with [Prof. Asaf Cohen](https://sites.google.com/site/asafcohentau/home) and [Prof. Gongjun Xu](https://sites.google.com/umich.edu/gongjunxu/home). 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+# Research Interests
+
+My research interests 
 
 Getting started
 ======
