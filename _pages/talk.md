@@ -7,6 +7,8 @@ author_profile: true
 
 # Talks and Presentations
 
+The following presentations are in reverse chronological order. 
+
 ## 1. Deep Galerkin Method for Mean-Field Control Problem
 
 Jingruo Sun, [INFORMS 2024 Annual Conference](https://meetings.informs.org/wordpress/seattle2024/)
