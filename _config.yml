@@ -26,11 +26,10 @@ author:
   bio              : "Master Student, Stanford MS&E"
   location         : "Stanford, CA"
   employer         : "Stanford University"
-  googlescholar    : "https://scholar.google.com/citations?user=gAc4Ux8AAAAJ&hl=en"
   email            : "jingruo@stanford.edu" 
 
   # Academic websites
-  # googlescholar    : "https://scholar.google.com/citations?user=gAc4Ux8AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=gAc4Ux8AAAAJ&hl=en"
   # orcid            : "http://orcid.org/yourorcidurl"
 
   # Repositories and software development
