@@ -7,6 +7,9 @@ redirect_from:
 ---
 
 # About Me
+
+![Profile Picture](/images/profile.JPG)
+
 I am a Master's student in Management Science & Engineering at Stanford University. 
 
 A data-driven personal website
