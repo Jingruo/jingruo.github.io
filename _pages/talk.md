@@ -29,7 +29,7 @@ This paper examines how scientific ideas transition from novel claims in publish
 Jingruo Sun, departmental talk, Best Project Award of Machine Learning (1/172), 2023
 
 <span style="font-size:85%;"> 
-df
+Sustainability has become pivotal in decision-making, with Environment, Social, and Governance (ESG) factors emerging as critical indicators of responsible, long-term organizational behavior. This project explores how ESG metrics reveal patterns of sustainable performance using advanced machine-learning techniques to handle complex, high-dimensional data. We employ predictive modeling, feature selection, and multi-objective optimization to assess the relationship between ESG indicators and long-term performance, balancing model complexity, interpretability, and reliability. We provide a robust framework for evaluating ESG variables as actionable, data-driven insights for guiding responsible decision-making and promoting the long-term positive impact of sustainability. 
 </span>
 
 ## 4. Importance-Weighted Sampling Enhanced VAE for MIRT Model
@@ -37,5 +37,5 @@ df
 Jingruo Sun, departmental talk, Undergraduate Honors Thesis for Statistics, 2023
 
 <span style="font-size:85%;"> 
-df
+Multidimensional Item Response Theory provides an ideal foundation for modeling performance in complex domains, taking into account multiple basic abilities simultaneously, and representing different mixtures of the abilities required for different test items. However, with the increasing size of modern assessment data, conventional estimation methods become computationally demanding, and hence they are not scalable to big data. To tackle this challenge, we present a novel approach utilizing importance-weighted sampling enhanced Variational Autoencoder on logistic models. We leverage the power of variational inference from the field of machine learning to effectively approximate the elusive marginal likelihood. We further enhance our method by using importance-weighted samples to yield a superior log-likelihood approximation. 
 </span>
