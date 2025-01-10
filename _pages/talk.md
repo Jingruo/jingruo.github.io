@@ -6,7 +6,7 @@ author_profile: true
 
 # Talks and Presentations
 
-The following presentations are in reverse chronological order. 
+I am honored to give talks at the following conferences and engage with a broader community of scholars. The presentation lists are in reverse chronological order. 
 
 ## 1. Deep Galerkin Method for Mean-Field Control Problem
 
