@@ -6,6 +6,8 @@ author_profile: true
 
 # Publications and Working Papers
 
+Please see my research statement [here](/_pages/statement.pdf).
+
 ## 1. Wait-Less Offline Tuning and Resolving for Online Decision Making
 
 Jingruo Sun, Wenzhi Gao, Ellen Vitercik, and Yinyu Ye, 2024, [[arXiv]](https://arxiv.org/abs/2412.09594)
