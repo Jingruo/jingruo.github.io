@@ -6,7 +6,7 @@ author_profile: true
 
 # Publications and Working Papers
 
-Please see my research statement [here](/_pages/statement.pdf).
+My research interests lie broadly at the intersection of optimization, decision-making, and machine learning. Please see my research statement [here](/_pages/statement.pdf).
 
 ## 1. Wait-Less Offline Tuning and Resolving for Online Decision Making
 
