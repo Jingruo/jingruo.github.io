@@ -26,7 +26,7 @@ This paper examines how scientific ideas transition from novel claims in publish
 
 ## 3. A Greener Future Beyond Profits: Sustainability as a Driver of Market
 
-Jingruo Sun, departmental talk [[Poster]](/_pages/Poster-CS229), Best Project Award of Machine Learning (1/172), 2023
+Jingruo Sun, departmental talk [[Poster]](/_pages/Poster-CS229.pdf), Best Project Award of Machine Learning (1/172), 2023
 
 <span style="font-size:85%;"> 
 Sustainability has become pivotal in decision-making, with Environment, Social, and Governance (ESG) factors emerging as critical indicators of responsible, long-term organizational behavior. This project explores how ESG metrics reveal patterns of sustainable performance using advanced machine-learning techniques to handle complex, high-dimensional data. We employ predictive modeling, feature selection, and multi-objective optimization to assess the relationship between ESG indicators and long-term performance, balancing model complexity, interpretability, and reliability. We provide a robust framework for evaluating ESG variables as actionable, data-driven insights for guiding responsible decision-making and promoting the long-term positive impact of sustainability. 
