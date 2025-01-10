@@ -18,7 +18,7 @@ We consider a mean-field control problem focusing on the average welfare of weak
 
 ## 2. The Development of Facticity: from Preliminary Findings to Accepted Implicit Knowledge
 
-Tianyu Du, Jingruo Sun, and Yuze Sui, [IC2S2 2024](https://ic2s2-2024.org/), [ICSSI 2024](https://www.icssi.org/)
+Tianyu Du, Jingruo Sun, and Yuze Sui, [[Poster]](/_pages/Poster-ICSSI), [IC2S2 2024](https://ic2s2-2024.org/), [ICSSI 2024](https://www.icssi.org/)
 
 <span style="font-size:85%;"> 
 This paper examines how scientific ideas transition from novel claims in published research to established, implicitly accepted facts. We propose a multi-phase process: (1) only a fraction of newly introduced ideas, initially shared via preprint and receive attention and citations; (2) those ideas acquire stable associations, lose citation salience, and become categorical concepts, signaling emerging consensus; and (3) eventually, those ideas appear in reference materials such as textbooks or Wikipedia, indicating fully integrated knowledge. This progression can reverse when previously accepted facts are contested, moving them back to the "bleeding edge" of research. Using data from arXiv, Web of Science, and Wikipedia, we trace how focal concepts move through these phases—analyzing citation patterns, co-citation networks, and whether concepts are mentioned but not formally cited. We illustrate this process by charting the life trajectory of "Ricci flow" in mathematics, revealing how key ideas become consolidated over time. 
