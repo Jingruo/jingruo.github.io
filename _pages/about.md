@@ -11,7 +11,7 @@ redirect_from:
 
 I am a second-year Master's student in Management Science & Engineering (MS&E) at Stanford University, where I am fortunate to be advised by [Prof. Yinyu Ye](https://stanford.edu/~yyye/), [Prof. Madeleine Udell](https://web.stanford.edu/~udell/), and [Prof. Ellen Vitercik](https://vitercik.github.io/). Before joining Stanford, I received my B.S. degree with high honors in Mathematics and Statistics from the University of Michigan. During my undergraduate studies, I had the pleasure of working with [Prof. Asaf Cohen](https://sites.google.com/site/asafcohentau/home) and [Prof. Gongjun Xu](https://sites.google.com/umich.edu/gongjunxu/home). I am now pursuing a Ph.D. in Fall 2025. 
 
-[[CV]](/_pages/Resume.pdf) [[Email]](mailto:jingruo@stanford.edu)
+Please find my [[CV]](/_pages/Resume.pdf) here.
 
 # Research Interests
 
