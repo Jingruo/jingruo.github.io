@@ -18,11 +18,11 @@ Online linear programming (OLP) has found broad applications in revenue manageme
 
 ## 2. SAPPHIRE: Preconditioned Stochastic Variance Reduction for Faster Large-Scale Statistical Learning
 
-Jingruo Sun, Zachary Frangella, and Madeleine Udell, 2024, 
+Jingruo Sun, Zachary Frangella, and Madeleine Udell, 2025, [[arXiv]](https://arxiv.org/abs/2501.15941)
 
 <span style="font-size:85%;"> 
-Rapid growth of modern machine learning and statistical applications has driven increasing interest in solving high-dimensional optimization problems. However, the challenges posed by ill-conditioned, non-smooth, and large-scale optimization tasks often undermine the performance of traditional stochastic gradient methods, leading to slow convergence and significant computational inefficiencies. 
-To address these challenges, we propose the SAPPHIRE (**S**ketching-based **A**pproximations for **P**roximal **P**reconditioning and **H**essian **I**nexactness with Variance-**R**educed Gradi**E**nts) algorithm. It integrates advanced sketching-based preconditioning techniques to tackle ill-conditioning and scaled proximal mapping to stabilize the optimization process. We demonstrate that our algorithm achieves a global linear convergence under quadratic regularity. Empirical evaluations show that SAPPHIRE outperforms other commonly used methods such as Catalyst, SAGA, and SVRG even with infrequent updates of preconditioners or non-convex objectives, highlighting its robustness and effectiveness. 
+Regularized empirical risk minimization (rERM) has become important in data-intensive fields such as genomics and advertising,
+with stochastic gradient methods typically used to solve the largest problems. However, ill-conditioned objectives and non-smooth regularizers undermine the performance of traditional stochastic gradient methods, leading to slow convergence and significant computational costs. To address these challenges, we propose the $\texttt{SAPPHIRE}$ (**S**ketching-based **A**pproximations for **P**roximal **P**reconditioning and **H**essian **I**nexactness with Variance-**RE**educed Gradients) algorithm, which integrates sketch-based preconditioning to tackle ill-conditioning and uses a scaled proximal mapping to minimize the non-smooth regularizer. This stochastic variance-reduced algorithm achieves condition-number-free linear convergence to the optimum, delivering an efficient and scalable solution for ill-conditioned composite large-scale convex machine learning problems. Extensive experiments on lasso and logistic regression demonstrate that $\texttt{SAPPHIRE}$ often converges $20$ times faster than other common choices such as $\texttt{Catalyst}$, $\texttt{SAGA}$, and $\texttt{SVRG}$. This advantage persists even when the objective is non-convex or the preconditioner is infrequently updated, highlighting its robust and practical effectiveness. 
 </span>
 
 ## 3. Convergence of the Deep Galerkin Method for Mean Field Control Problems
