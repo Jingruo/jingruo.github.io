@@ -4,31 +4,55 @@ permalink: /research/
 author_profile: true
 ---
 
-# Publications and Working Papers
+# Publications
 
-My research interests lie broadly at the intersection of optimization, decision-making, and machine learning. 
+## Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction
 
-## 1. Wait-Less Offline Tuning and Resolving for Online Decision Making
+Yong Lin, Shange Tang, Bohan Lyu, Ziran Yang, Jui-Hui Chung, Haoyu Zhao, Lai Jiang, Yihan Geng, Jiawei Ge, **Jingruo Sun**, Jiayun Wu, Jiri Gesi, Ximing Lu, David Acuna, Kaiyu Yang, Hongzhou Lin, Yejin Choi, Danqi Chen, Sanjeev Arora, and Chi Jin
 
-Jingruo Sun, Wenzhi Gao, Ellen Vitercik, and Yinyu Ye, 2024, [[arXiv]](https://arxiv.org/abs/2412.09594)
+**International Conference on Learning Representations (ICLR), 2026**
 
-<span style="font-size:85%;"> 
-Online linear programming (OLP) has found broad applications in revenue management and resource allocation. State-of-the-art OLP algorithms achieve low regret by repeatedly solving linear programming (LP) subproblems that incorporate updated resource information. However, LP-based methods are computationally expensive and often inefficient for large-scale applications. By contrast, recent first-order OLP algorithms are more computationally efficient but typically suffer from worse regret guarantees. To address these shortcomings, we propose a new algorithm that combines the strengths of LP-based and first-order OLP methods. The algorithm re-solves the LP subproblems periodically at a predefined frequency $f$ and uses the latest dual prices to guide online decision-making. In parallel, a first-order method runs during each interval between LP re-solves and smooths resource consumption. Our algorithm achieves $ \mathcal{O}(\log (T/f) + \sqrt{f}) $ regret and delivers a "wait-less" online decision-making process that balances computational efficiency and superior regret. Extensive experiments demonstrate at least $20$-fold improvements in regret over pure first-order methods and $100$-fold improvements in runtime over pure LP-based methods. 
-</span>
+**International Conference on Machine Learning (ICML) AI4MATH Workshop (Oral), 2025**
 
-## 2. SAPPHIRE: Preconditioned Stochastic Variance Reduction for Faster Large-Scale Statistical Learning
+[Paper](https://arxiv.org/abs/2508.03613) · [Code](https://github.com/Goedel-LM/Goedel-Prover-V2)
 
-Jingruo Sun, Zachary Frangella, and Madeleine Udell, 2025, [[arXiv]](https://arxiv.org/abs/2501.15941)
+- We introduce open-source language models for theorem proving in Lean, combining scaffolded data synthesis, verifier-guided self-correction, and checkpoint averaging.
+  
+- In self-correction mode, the 32B model achieves 90.4% pass@32 on MiniF2F and solves 86 PutnamBench problems at pass@184.
 
-<span style="font-size:85%;"> 
-Regularized empirical risk minimization (rERM) has become important in data-intensive fields such as genomics and advertising,
-with stochastic gradient methods typically used to solve the largest problems. However, ill-conditioned objectives and non-smooth regularizers undermine the performance of traditional stochastic gradient methods, leading to slow convergence and significant computational costs. To address these challenges, we propose the $\texttt{SAPPHIRE}$ (**S**ketching-based **A**pproximations for **P**roximal **P**reconditioning and **H**essian **I**nexactness with Variance-**RE**educed Gradients) algorithm, which integrates sketch-based preconditioning to tackle ill-conditioning and uses a scaled proximal mapping to minimize the non-smooth regularizer. This stochastic variance-reduced algorithm achieves condition-number-free linear convergence to the optimum, delivering an efficient and scalable solution for ill-conditioned composite large-scale convex machine learning problems. Extensive experiments on lasso and logistic regression demonstrate that $\texttt{SAPPHIRE}$ often converges $20$ times faster than other common choices such as $\texttt{Catalyst}$, $\texttt{SAGA}$, and $\texttt{SVRG}$. This advantage persists even when the objective is non-convex or the preconditioner is infrequently updated, highlighting its robust and practical effectiveness. 
-</span>
+## Wait-Less Offline Tuning and Re-solving for Online Decision Making
 
-## 3. Convergence of the Deep Galerkin Method for Mean Field Control Problems
+**Jingruo Sun**, Wenzhi Gao, Ellen Vitercik, and Yinyu Ye
 
-William Hofgard, Jingruo Sun, and Asaf Cohen, 2023, [[arXiv]](https://arxiv.org/abs/2405.13346)
+**International Conference on Machine Learning (ICML), 2025**
 
-<span style="font-size:85%;"> 
-We establish the convergence of the deep Galerkin method (DGM), a deep learning-based scheme for solving high-dimensional nonlinear PDEs, for Hamilton-Jacobi-Bellman (HJB) equations that arise from the study of mean field control problems (MFCPs). Based on a recent characterization of the value function of the MFCP as the unique viscosity solution of an HJB equation on the simplex, we establish both an existence and convergence result for the DGM. First, we show that the loss functional of the DGM can be made arbitrarily small given that the value function of the MFCP possesses sufficient regularity. Then, we show that if the loss functional of the DGM converges to zero, the corresponding neural network approximators must converge uniformly to the true value function on the simplex. We also provide numerical experiments demonstrating the DGM's ability to generalize to high-dimensional HJB equations.
-</span>
+[Paper](https://proceedings.mlr.press/v267/sun25e.html) · [arXiv](https://arxiv.org/abs/2412.09594) · [Code](https://github.com/Jingruo/Wait-Less-Online-Decision-Making)
+
+- We balance decision quality and computation in online resource allocation by coupling periodic linear programming (LP) re-solving with inexpensive first-order updates. The two components exchange information through a feedback loop, enabling immediate decisions without solving a new LP for each arrival.
+  
+- A unified analysis of LP-based and first-order methods quantifies how re-solving frequency controls regret under the stochastic input model. Experiments demonstrate at least a 10-fold reduction in regret relative to first-order baselines and 100-fold speedups over LP-based baselines.
+
+
+## SAPPHIRE: Preconditioned Stochastic Variance Reduction for Faster Large-Scale Statistical Learning
+
+**Jingruo Sun**, Zachary Frangella, and Madeleine Udell
+
+**SIAM Journal on Mathematics of Data Science (SIMODS) · Accepted**
+
+[arXiv](https://arxiv.org/abs/2501.15941) · [Code](https://github.com/udellgroup/sapphire)
+
+- We develop a stochastic optimization method that combines sketched curvature information with variance-reduced proximal updates to accelerate regularized learning with ill-conditioned objectives and nonsmooth penalties.
+
+- Establishes global convergence and a local linear rate independent of the condition number. Converges 20× faster than Catalyst, SAGA, and SVRG on lasso and logistic-regression tasks.
+
+## Convergence of the Deep Galerkin Method for Finite State Mean Field Control Problems
+
+William Hofgard, **Jingruo Sun**, and Asaf Cohen
+
+**SIAM Journal on Mathematics of Data Science (SIMODS) · Accepted**
+
+[arXiv](https://arxiv.org/abs/2405.13346)
+
+- We reformulate the Deep Galerkin Method (DGM) using a uniform-residual ($L^{\infty}$) loss for the nonlinear Hamilton–Jacobi–Bellman equations in finite-state mean field control.
+
+- Under the stated regularity assumptions, we prove that the DGM loss can be made arbitrarily small and that any sequence of neural-network approximations with vanishing loss converges uniformly to the value function.
