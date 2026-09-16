@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Jingruo Sun"
 title_separator          : "-"
 name                     : &name "Jingruo Sun"
-description              : &description "Master Student, Stanford MS&E"
+description              : &description "Ph.D. Student, Princeton ORFE"
 url                      : https://jingruo.github.io
 baseurl                  : ""
 repository               : "https://jingruo.github.io/"
@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Jingruo Sun"
-  bio              : "Master Student, Stanford MS&E"
-  location         : "Stanford, CA"
-  employer         : "Stanford University"
-  email            : "jingruo@stanford.edu" 
+  bio              : "Ph.D. Student, Princeton ORFE"
+  location         : "Princeton, NJ"
+  employer         : "Princeton University"
+  email            : "jingruo@princeton.edu" 
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=gAc4Ux8AAAAJ&hl=en"
