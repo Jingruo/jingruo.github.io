@@ -29,4 +29,111 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+
+{% if page.url == "/research/" %}
+<style>
+/* Loaded on this page only; the publication content stays in Markdown. */
+.page__content {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Page heading. */
+.page__content h1 {
+  margin: 0 0 26px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Paper titles: smaller headings, without the theme's bottom rule. */
+.page__content h2 {
+  margin: 0 0 8px;
+  padding: 0;
+  border-bottom: 0;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* Place a light separator BETWEEN papers instead. */
+.page__content ul + h2 {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Compact author, venue, and resource-link paragraphs. */
+.page__content > p {
+  margin: 0 0 6px;
+  font-size: 15.5px;
+  line-height: 1.5;
+  text-indent: 0;
+}
+
+/* The paragraph immediately after each title is the author list. */
+.page__content h2 + p {
+  margin-bottom: 8px;
+  color: #626970;
+}
+.page__content h2 + p strong {
+  color: #343a40;
+}
+
+/* The next paragraph is the main publication venue. */
+.page__content h2 + p + p {
+  margin-bottom: 4px;
+}
+.page__content h2 + p + p strong {
+  font-weight: 600;
+}
+
+/* Additional workshop line: secondary to the main venue. */
+.page__content h2 + p + p + p > strong {
+  color: #626970;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Resource links retain the site's existing link color. */
+.page__content > p a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Summary bullets, including Markdown's paragraph-wrapped lists. */
+.page__content > ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+.page__content > ul > li {
+  margin: 0;
+  padding-left: 2px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.page__content > ul > li + li {
+  margin-top: 7px;
+}
+.page__content li > p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Slightly smaller type on narrow screens. */
+@media (max-width: 640px) {
+  .page__content h1 { font-size: 27px; }
+  .page__content h2 { font-size: 20px; }
+  .page__content > p { font-size: 15px; }
+  .page__content > ul > li { font-size: 16px; }
+  .page__content ul + h2 {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+}
+</style>
+{% endif %}
+
 <!-- end custom head snippets -->
