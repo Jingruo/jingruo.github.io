@@ -143,4 +143,213 @@
 </style>
 {% endif %}
 
+
+<!-- BEGIN Talks & Honors: append once to _includes/head/custom.html -->
+{% if page.url == "/talk/" %}
+<style>
+/* This stylesheet is loaded only for /talk/ by the supplied head snippet. */
+.page__content {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.page__content > h1 {
+  margin: 0 0 26px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #494e52;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Section headings: talks, awards, and service. */
+.page__content > h2 {
+  margin: 36px 0 16px;
+  padding: 0 0 9px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #494e52;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.page__content > h1 + h2 {
+  margin-top: 0;
+}
+
+/* One paper/project title per group, without extra dividers. */
+.page__content > h3 {
+  margin: 26px 0 8px;
+  padding: 0;
+  border: 0;
+  color: #343a40;
+  font-size: 19.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.page__content > h2 + h3 {
+  margin-top: 0;
+}
+
+/* The lists remain ordinary Markdown; CSS removes the decorative bullets. */
+.page__content > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content > ul > li {
+  margin: 0;
+  padding: 0;
+  color: #494e52;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.page__content > ul > li + li {
+  margin-top: 5px;
+}
+
+.page__content > ul > li > strong:first-child,
+.page__content > ul > li > p > strong:first-child {
+  color: #626970;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.page__content li > p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* A light, readable awards table with no boxes around individual cells. */
+.page__content > table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 15.5px;
+  line-height: 1.5;
+}
+
+.page__content > table th,
+.page__content > table td {
+  padding: 9px 14px 9px 0;
+  border: 0;
+  vertical-align: top;
+  text-align: left;
+  background: transparent;
+}
+
+.page__content > table th {
+  padding-top: 0;
+  color: #626970;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.page__content > table tbody tr + tr td {
+  border-top: 1px solid #f0f1f2;
+}
+
+.page__content > table th:first-child,
+.page__content > table td:first-child {
+  width: 100px;
+  color: #626970;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.page__content > table th:last-child,
+.page__content > table td:last-child {
+  width: 27%;
+  padding-right: 0;
+  color: #626970;
+}
+
+.page__content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* On mobile the table becomes a stack of entries without horizontal scrolling. */
+@media (max-width: 600px) {
+  .page__content > h1 { font-size: 27px; }
+  .page__content > h2 { font-size: 21px; margin-top: 30px; }
+  .page__content > h1 + h2 { margin-top: 0; }
+  .page__content > h3 { font-size: 18px; margin-top: 23px; }
+  .page__content > h2 + h3 { margin-top: 0; }
+  .page__content > ul > li { font-size: 15.5px; }
+
+  .page__content > table,
+  .page__content > table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  /* Keep the column headings available to assistive technology. */
+  .page__content > table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .page__content > table tbody tr {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 3px 10px;
+    padding: 11px 0;
+  }
+
+  .page__content > table tbody tr + tr {
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .page__content > table tbody tr td,
+  .page__content > table tbody tr + tr td {
+    display: block;
+    width: auto;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  .page__content > table tbody tr td:first-child {
+    width: auto;
+    padding: 0;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    font-size: 14px;
+  }
+
+  .page__content > table tbody tr td:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .page__content > table tbody tr td:last-child {
+    width: auto;
+    padding: 0;
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 14px;
+  }
+}
+
+</style>
+{% endif %}
+<!-- END Talks & Honors -->
+
 <!-- end custom head snippets -->
