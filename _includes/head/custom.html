@@ -372,4 +372,13 @@
 {% endif %}
 <!-- END Talks & Honors -->
 
+{% if page.url == "/" %}
+<style>
+/* Slightly increase the separation between About Me and Research Interests. */
+.page__content #research-interests {
+  padding-top: 12px;
+}
+</style>
+{% endif %}
+
 <!-- end custom head snippets -->
