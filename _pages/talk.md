@@ -4,9 +4,7 @@ permalink: /talk/
 author_profile: true
 ---
 
-# Talks & Honors
-
-## Talks and Presentations
+# Talks
 
 ### Wait-less Offline Tuning and Resolving for Online Decision Making
 
@@ -27,7 +25,7 @@ author_profile: true
 - **Jul 2024** — International Conference on Computational Social Science (IC2S2) 2024
 - **Jul 2024** — International Conference on the Science of Science and Innovation (ICSSI) 2024
 
-## Honors and Awards
+# Honors and Awards
 
 | Year | Honor or Award | Institution |
 | :--- | :--- | :--- |
@@ -38,8 +36,7 @@ author_profile: true
 | 2020–2023 | James B. Angell Scholar | University of Michigan |
 | 2020–2023 | University Honor | University of Michigan |
 | 2020–2023 | Dean’s Honors List | University of Michigan |
-| 2017 | Second Prize of National Mathematics Olympics | Chinese Mathematics Olympiad |
 
-## Professional Service
+# Professional Service
 
 - **2026** — Reviewer for NeurIPS 2026
