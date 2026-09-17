@@ -147,12 +147,13 @@
 <!-- BEGIN Talks & Honors: append once to _includes/head/custom.html -->
 {% if page.url == "/talk/" %}
 <style>
-/* This stylesheet is loaded only for /talk/ by the supplied head snippet. */
+/* This stylesheet is loaded only for /talk/ by the existing head snippet. */
 .page__content {
   font-size: 17px;
   line-height: 1.6;
 }
 
+/* Optional page heading, retained in case you add one later. */
 .page__content > h1 {
   margin: 0 0 26px;
   padding: 0 0 12px;
@@ -163,22 +164,23 @@
   line-height: 1.25;
 }
 
-/* Section headings: talks, awards, and service. */
+/* Main sections: larger and bolder than the paper titles. */
 .page__content > h2 {
-  margin: 36px 0 16px;
-  padding: 0 0 9px;
+  margin: 40px 0 18px;
+  padding: 0 0 10px;
   border-bottom: 1px solid #e5e7eb;
   color: #494e52;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1.35;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
-.page__content > h1 + h2 {
+/* The opening "Talks" heading does not need extra top spacing. */
+.page__content > h2:first-of-type {
   margin-top: 0;
 }
 
-/* One paper/project title per group, without extra dividers. */
+/* Paper/project titles: smaller, with no extra dividers. */
 .page__content > h3 {
   margin: 26px 0 8px;
   padding: 0;
@@ -278,14 +280,33 @@
   text-underline-offset: 3px;
 }
 
-/* On mobile the table becomes a stack of entries without horizontal scrolling. */
+/* Mobile: preserve the heading hierarchy and stacked awards layout. */
 @media (max-width: 600px) {
-  .page__content > h1 { font-size: 27px; }
-  .page__content > h2 { font-size: 21px; margin-top: 30px; }
-  .page__content > h1 + h2 { margin-top: 0; }
-  .page__content > h3 { font-size: 18px; margin-top: 23px; }
-  .page__content > h2 + h3 { margin-top: 0; }
-  .page__content > ul > li { font-size: 15.5px; }
+  .page__content > h1 {
+    font-size: 27px;
+  }
+
+  .page__content > h2 {
+    margin-top: 32px;
+    font-size: 24px;
+  }
+
+  .page__content > h2:first-of-type {
+    margin-top: 0;
+  }
+
+  .page__content > h3 {
+    font-size: 18px;
+    margin-top: 23px;
+  }
+
+  .page__content > h2 + h3 {
+    margin-top: 0;
+  }
+
+  .page__content > ul > li {
+    font-size: 15.5px;
+  }
 
   .page__content > table,
   .page__content > table tbody {
@@ -347,7 +368,6 @@
     font-size: 14px;
   }
 }
-
 </style>
 {% endif %}
 <!-- END Talks & Honors -->
