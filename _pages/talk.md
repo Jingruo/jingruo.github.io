@@ -4,7 +4,7 @@ permalink: /talk/
 author_profile: true
 ---
 
-# Talks
+## Talks
 
 ### Wait-less Offline Tuning and Resolving for Online Decision Making
 
@@ -25,9 +25,9 @@ author_profile: true
 - **Jul 2024** — International Conference on Computational Social Science (IC2S2) 2024
 - **Jul 2024** — International Conference on the Science of Science and Innovation (ICSSI) 2024
 
-# Honors and Awards
+## Honors and Awards
 
-| Year | Honor or Award | Institution |
+| Year | Honor/Award | Institution |
 | :--- | :--- | :--- |
 | 2025 | Spotlight on Engineering | Princeton University |
 | 2023 | Best Project Awards of Machine Learning | Stanford University |
@@ -37,6 +37,6 @@ author_profile: true
 | 2020–2023 | University Honor | University of Michigan |
 | 2020–2023 | Dean’s Honors List | University of Michigan |
 
-# Professional Service
+## Professional Service
 
 - **2026** — Reviewer for NeurIPS 2026
